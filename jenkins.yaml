@@ -1,5 +1,7 @@
 jenkins:
-  agentProtocols:
+  systemMessage: 'Jenkins configured using CloudBees CI CasC - v1'
+ 
+ agentProtocols:
   - "Diagnostic-Ping"
   - "JNLP4-connect"
   - "OperationsCenter2"
@@ -55,6 +57,12 @@ security:
   sSHD:
     port: -1
 unclassified:
+  hibernationConfiguration:
+    activities:
+    - "build"
+    - "web"
+    enabled: true
+    gracePeriod: 36000
   buildDiscarders:
     configuredBuildDiscarders:
     - "jobBuildDiscarder"
