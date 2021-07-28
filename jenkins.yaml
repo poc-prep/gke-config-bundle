@@ -1,7 +1,5 @@
 jenkins:
-  systemMessage: 'Jenkins configured using CloudBees CI CasC - v5'
- 
- agentProtocols:
+  agentProtocols:
   - "Diagnostic-Ping"
   - "JNLP4-connect"
   - "OperationsCenter2"
@@ -57,7 +55,6 @@ security:
   sSHD:
     port: -1
 unclassified:
- 
   buildDiscarders:
     configuredBuildDiscarders:
     - "jobBuildDiscarder"
@@ -70,7 +67,6 @@ unclassified:
     debugMode: false
     defaultBody: |-
       $PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS:
-
       Check console output at $BUILD_URL to view the results.
     defaultSubject: "$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS!"
     defaultTriggerIds:
