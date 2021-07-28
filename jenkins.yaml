@@ -102,10 +102,6 @@ unclassified:
     charset: "UTF-8"
     useSsl: false
     useTls: false
-  operationsCenterRootAction:
-    connectionDetails: "----- BEGIN CONNECTION DETAILS -----\nH4sIAAAAAAAAAB3NSxLCIBBF0b0wtgGFJJptuAK6aTXaisUnDiz3Ljo9dV+9tzrn8KhqVjvvRiJm\r\
-      \nQHtw4PfRAw4TwtYiej+NaJ1VG7XE3lqIvFYO96FLy9LpUutzNoauiTRJahGZC9Ciy/qDVipnLYmC\r\
-      \n/BvThy/GY6Ib9/dTkMKfLy7ZYxGNAAAA\r\n----- END CONNECTION DETAILS -----\n"
   pollSCM:
     pollingThreadCount: 10
   usageStatisticsCloudBees:
