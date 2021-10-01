@@ -119,3 +119,4 @@ plugins:
 - {id: workflow-step-api}
 - {id: workflow-support}
 - {id: managed-master-hibernation}
+- {id: cloudbees-pipeline-policies}
